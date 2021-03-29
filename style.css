@@ -4,9 +4,11 @@ body {
 }
 
 .first-screen {
-    background: url(img/introFon.png) center center;
+    background: url(img/introFon.png);
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
     background-size: cover;
-    display: block;
     height: 100vh;
 }
 
@@ -87,8 +89,66 @@ body {
     color: #000;
 }
 
+@media screen and (max-width:1080px) {
+    .first-screen__header__inner {
+        max-width: 800px;
+    }
+    .logo {
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .first-screen__text {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:850px) {
+    .first-screen__header__inner {
+        max-width: 700px;
+    }
+    .first-screen__text {
+        margin-left: 100px;
+    }
+    .first-screen__block {
+        width: 250px;
+        height: 86vh;
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width:720px) {
+    .first-screen__title {
+        font-size: 38px;
+    }
+    .first-screen__subtitle {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:600px) {
+    .first-screen__text {
+        margin-left: 50px;
+    }
+    .first-screen__title {
+        font-size: 30px;
+        width: 400px;
+    }
+    .first-screen__subtitle {
+        font-size: 10px;
+        width: 400px;
+    }
+    .first-screen__block {
+        width: 200px;
+        height: 86vh;
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:685px) {
+    .first-screen__header__nav {
+        display: none;
+    }
+}
+
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
