@@ -261,6 +261,46 @@ body {
     font-weight: 100;
 }
 
+@media screen and (max-width:790px) {
+    .slider-cards__item__text {
+        margin-left: 500px;
+    }
+}
+@media screen and (max-width:710px) {
+    .slider-cards__item__text {
+        margin-left: 450px;
+    }
+}
+@media screen and (max-width:650px) {
+    .slider-cards__item__text {
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:600px) {
+    .slider-cards__item__text {
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width:550px) {
+    .slider-cards__item__text {
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:500px) {
+    .slider-cards__item__text {
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:450px) {
+    .slider-cards__item__text {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:400px) {
+    .slider-cards__item__text {
+        margin-left: 150px;
+    }
+}
 .rent {
     margin-bottom: 50px;
 }
@@ -329,7 +369,24 @@ body {
     font-size: 14px;
     color: #343434;
 }
+@media screen and (max-width:650px) {
+    .rent-left {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .rent-right__mid__right li {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:500px) {
+    .rent-right__mid {
+        display: block;
+    }
 
+    .rent-right__top p {
+        font-size: 15px;
+    }
+}
 .news {
     margin-bottom: 100px;
 }
@@ -406,7 +463,6 @@ body {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
     color: #343434;
-    
 }
 
 .news-main__left__text__mid a {
@@ -451,7 +507,37 @@ body {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
 }
-
+@media screen and (max-width:880px) {
+    .news-main {
+        flex-wrap: wrap;
+    }
+    .news-main__right {
+        margin-top: 50px;
+    }
+    .news-main__left img {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:430px) {
+    .news-main__left img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .news-main__left__text {
+        width: 150px;
+    }
+    .news-main__left__text__mid p {
+        font-size: 8px;
+    }
+    
+    .news-main__left__text__mid a {
+        font-size: 10px;
+    }
+    .news-main__right__left__down {
+        display: block;
+    }
+}
 
 .footer {
     background-color: #005BC1;
