@@ -596,7 +596,39 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+@media screen and (max-width:890px) {
+    .footer {
+        padding: 0 50px;
+    }
 
+    .footer p {
+        font-size: 13px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-mid {
+        display: block;
+    }
+
+    .footer-down {
+        display: block;
+    }
+
+    .footer p {
+        margin: 0 10px;
+    }
+
+    .footer-mid div {
+        margin: 0 10px;
+    }
+
+    .footer-down p {
+        margin: 0 10px;
+    }
+}
 
 
 
